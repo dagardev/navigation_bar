@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+     
+}
+
+nav{
+    font-size: 3rem;
+    line-height: 6rem;
+    border: 2px solid #333;
+    margin: 20px ;
+    border-radius: 3rem;
+
+}
+
+li{
+    list-style-type: none;
+    border-top: 1px solid #333;
+}
+
+h2{
+    background-color: #333;
+    border-radius: 3rem 3rem 0 0;
+    color: whitesmoke;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+a:hover, a:focus{
+    background-color: #333;
+    color: whitesmoke;
+}
+
+li:last-child a{
+    border-radius: 0 0 3rem 3rem;
+}
